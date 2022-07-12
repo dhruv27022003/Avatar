@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(151, 172, 132)">
+    <div class="a">
+      <div class="aa">
+        <h2>ENTER THE NAME TO KNOW YOUR AVATAR</h2>
+      </div>
+
+      <input type="text" id="nam" value="NAME" />
+      <br />
+      <button id="button">CLICK ME</button>
+      <div class="b">
+        <img
+          src="95E7C7F6-447F-48C1-BE0E-4192C7694402_1_105_c.jpeg"
+          alt=""
+          width="200"
+          height="200"
+          class="immg"
+        />
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          const name = $("#nam").val();
+          //    alert(name);
+          $(".immg").attr("src", `https://joeschmoe.io/api/v1/${name}`);
+          const b = $(".immg");
+          console.log(b);
+        });
+      });
+    </script>
+  </body>
+</html>

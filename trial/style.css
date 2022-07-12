@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Permanent+Marker&family=Raleway:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
+
+.a{
+    background-color: bisque;
+    padding: 0.1mm;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+.aa{
+    background-color: rgb(223, 163, 163);
+    font-family: Permanent Marker;
+    text-align: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top: 10vh;
+padding: 1vh;
+}
+.h2{
+   padding: 9vh;
+}
+#nam{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 3vh;
+    padding: 2vh;
+    background-color: rgb(255, 255, 255);
+}
+#button{
+    margin-left: 47%;
+    margin-top: 3vh;
+    padding: 1vh;
+    border-radius: 2vh;
+   cursor: pointer; 
+}
+#button :hover{
+    background-color: black;
+    color: rgb(51, 98, 139);
+}
+img{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2vh;
+    /* padding: 5vh; */
+    background-color: rgb(255, 255, 255);
+}
